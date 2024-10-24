@@ -1,0 +1,58 @@
+/* portofolio.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .mainarea, .aboutme, .myprojects, section#contact {
+    padding: 50px;
+  }
+  .rounded-image {
+    border-radius: 50%;
+}
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  /* עיצוב תפריט */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 20px;
+  }
+  
+  /* עיצוב כפתור צור קשר */
+  
+  .projbutton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
